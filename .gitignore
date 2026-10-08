@@ -6,3 +6,4 @@ build/
 *.run.*
 *.toc
 *.pdf
+!HYlogo.pdf
