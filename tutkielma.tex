@@ -1,0 +1,53 @@
+% Kandi here we go yeeeee
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[finnish]{babel}
+\usepackage{amssymb}
+% \usepackage{amsfonts}
+
+\title{Kanditutkielma}
+\author{Aaro Koivukangas}
+\date{\today}
+
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\implies}{\Rightarrow}
+
+\newtheorem{definition}{Määritelmä}[section]
+\newtheorem{theorem}[definition]{Lause}
+\newtheorem{lemma}[definition]{Lemma}
+\newtheorem{corollary}[definition]{Korollaari}
+\newtheorem{example}[definition]{Korollaari}
+
+\begin{document}
+\setcounter{section}{-1}
+
+
+\maketitle
+
+\begin{abstract}
+	Tähän pitäis alkaa muodostua minun kandini. Hui.
+\end{abstract}
+
+\begin{section}{Esitiedot}
+
+\begin{subsection}{$\sigma$-algebra?}
+\end{subsection}
+
+\begin{subsection}{Positiivinen mitta}
+\begin{definition}
+	Olkoon $X$ joukko, jolla on $\sigma$-algebra $\Gamma$. Kuvaus $\mu: \Gamma \rightarrow [r, +\infty]$ on joukon $X$ mitta, jos
+	\begin{enumerate}
+		\item $\mu (\emptyset) = 0$
+		\item $A_i \in \Gamma, i \in \N$, erilliset joukot $\implies \mu( \bigcup_{i=1}^{\infty} A_i ) = \Sigma_{i \in \N} \mu(A_i)$
+	\end{enumerate}
+	Kolmikkoa $(X, \Gamma, \mu)$ kutsutaan mitta-avaruudeksi.
+\end{definition}
+\end{subsection}
+
+\end{section}
+
+\end{document}
